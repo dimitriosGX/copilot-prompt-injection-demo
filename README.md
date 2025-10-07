@@ -7,6 +7,7 @@ A Flask-based web application that helps organizations find the right security v
 - Interactive form with comprehensive project assessment
 - Real-time progress tracking during vendor analysis
 - Responsive web interface with modern styling
+- **Multi-language support**: English, Spanish (Español), and French (Français)
 - Support for various project types, industries, and compliance requirements
 - Budget and timeline considerations
 - Technology stack compatibility assessment
@@ -58,13 +59,23 @@ uv run gunicorn -w 4 -b 0.0.0.0:8000 app:app
 ## Usage
 
 1. Open your browser and navigate to `http://localhost:5000`
-2. Fill out the comprehensive security vendor selection form:
+2. **Select your preferred language** using the language selector buttons at the top (English, Español, or Français)
+3. Fill out the comprehensive security vendor selection form:
    - **Project Information**: Name, type, and company size
    - **Security Requirements**: Assessment types, priority level, budget, and timeline
    - **Technical Requirements**: Technology stack, complexity, and codebase size
    - **Compliance & Industry**: Industry type, compliance requirements, and data sensitivity
-3. Click "Find My Security Vendor" to get a recommendation
-4. The system will analyze your requirements and recommend an appropriate security vendor
+4. Click "Find My Security Vendor" to get a recommendation
+5. The system will analyze your requirements and recommend an appropriate security vendor
+
+### Language Support
+
+The application supports three languages:
+- **English**: Default language
+- **Español (Spanish)**: Full translation of all UI elements
+- **Français (French)**: Full translation of all UI elements
+
+Your language preference is automatically saved in your browser and will be remembered for future visits.
 
 ## Development
 
