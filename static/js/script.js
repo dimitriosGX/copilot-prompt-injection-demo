@@ -1,4 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Initialize i18n
+    await window.i18n.init();
+
     const form = document.getElementById('vendor-form');
     const progressContainer = document.getElementById('progress-container');
     const resultContainer = document.getElementById('result-container');
@@ -19,6 +22,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const sensitivitySlider = document.getElementById('data-sensitivity');
     const sensitivityValue = document.getElementById('sensitivity-value');
+
+    // Language switcher
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', async function() {
+            const lang = this.dataset.lang;
+            await window.i18n.changeLanguage(lang);
+        });
+    });
 
     prioritySlider.addEventListener('input', function() {
         priorityValue.textContent = this.value;
@@ -74,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
             console.error('Error:', error);
-            alert('An error occurred while processing your request.');
+            alert(window.i18n.getErrorMessage());
             form.style.display = 'block';
             progressContainer.style.display = 'none';
         });
@@ -96,15 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const progressFill = document.getElementById('progress-fill');
         const progressText = document.getElementById('progress-text');
         
-        const steps = [
-            { percent: 10, text: 'Analyzing project requirements...' },
-            { percent: 25, text: 'Evaluating security priorities...' },
-            { percent: 40, text: 'Matching technology stack...' },
-            { percent: 55, text: 'Checking compliance requirements...' },
-            { percent: 70, text: 'Calculating budget alignment...' },
-            { percent: 85, text: 'Reviewing vendor capabilities...' },
-            { percent: 100, text: 'Finalizing recommendation...' }
-        ];
+        const steps = window.i18n.getProgressSteps();
         
         let currentStep = 0;
         
