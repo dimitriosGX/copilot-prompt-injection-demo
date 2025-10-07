@@ -18,6 +18,36 @@ body {
     padding: 20px;
 }
 
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.language-option {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.language-option:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.language-option.active {
+    background: white;
+    color: #667eea;
+    border-color: white;
+}
+
 header {
     text-align: center;
     margin-bottom: 40px;

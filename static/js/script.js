@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
             console.error('Error:', error);
-            alert('An error occurred while processing your request.');
+            alert(window.i18n ? window.i18n.getError('requestError') : 'An error occurred while processing your request.');
             form.style.display = 'block';
             progressContainer.style.display = 'none';
         });
@@ -97,13 +97,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const progressText = document.getElementById('progress-text');
         
         const steps = [
-            { percent: 10, text: 'Analyzing project requirements...' },
-            { percent: 25, text: 'Evaluating security priorities...' },
-            { percent: 40, text: 'Matching technology stack...' },
-            { percent: 55, text: 'Checking compliance requirements...' },
-            { percent: 70, text: 'Calculating budget alignment...' },
-            { percent: 85, text: 'Reviewing vendor capabilities...' },
-            { percent: 100, text: 'Finalizing recommendation...' }
+            { percent: 10, text: window.i18n ? window.i18n.getProgressStep(1) : 'Analyzing project requirements...' },
+            { percent: 25, text: window.i18n ? window.i18n.getProgressStep(2) : 'Evaluating security priorities...' },
+            { percent: 40, text: window.i18n ? window.i18n.getProgressStep(3) : 'Matching technology stack...' },
+            { percent: 55, text: window.i18n ? window.i18n.getProgressStep(4) : 'Checking compliance requirements...' },
+            { percent: 70, text: window.i18n ? window.i18n.getProgressStep(5) : 'Calculating budget alignment...' },
+            { percent: 85, text: window.i18n ? window.i18n.getProgressStep(6) : 'Reviewing vendor capabilities...' },
+            { percent: 100, text: window.i18n ? window.i18n.getProgressStep(7) : 'Finalizing recommendation...' }
         ];
         
         let currentStep = 0;

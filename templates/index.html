@@ -8,6 +8,11 @@
 </head>
 <body>
     <div class="container">
+        <div class="language-selector">
+            <button class="language-option active" data-lang="en" onclick="window.i18n.changeLanguage('en')">English</button>
+            <button class="language-option" data-lang="es" onclick="window.i18n.changeLanguage('es')">Español</button>
+            <button class="language-option" data-lang="fr" onclick="window.i18n.changeLanguage('fr')">Français</button>
+        </div>
         <header>
             <h1>Security Vendor Selection Tool</h1>
             <p>Find the perfect security vendor for your project</p>
@@ -246,6 +251,13 @@
         </div>
     </div>
 
+    <script src="{{ url_for('static', filename='js/i18n.js') }}"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        // Initialize i18n when page loads
+        window.addEventListener('DOMContentLoaded', function() {
+            window.i18n.initializeLanguage();
+        });
+    </script>
 </body>
 </html>

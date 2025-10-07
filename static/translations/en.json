@@ -1,0 +1,101 @@
+{
+  "title": "Security Vendor Selector",
+  "header": {
+    "title": "Security Vendor Selection Tool",
+    "subtitle": "Find the perfect security vendor for your project"
+  },
+  "sections": {
+    "projectInfo": "Project Information",
+    "securityReq": "Security Requirements",
+    "technicalReq": "Technical Requirements",
+    "compliance": "Compliance & Industry"
+  },
+  "form": {
+    "projectName": "Project Name:",
+    "projectType": "Project Type:",
+    "companySize": "Company Size:",
+    "assessmentTypes": "Security Assessment Types (select all that apply):",
+    "securityPriority": "Security Priority Level:",
+    "budgetRange": "Budget Range (USD):",
+    "timeline": "Project Timeline:",
+    "techStack": "Technology Stack (select all that apply):",
+    "codeComplexity": "Code Complexity:",
+    "codebaseSize": "Codebase Size (Lines of Code):",
+    "industry": "Industry:",
+    "complianceReq": "Compliance Requirements (select all that apply):",
+    "dataSensitivity": "Data Sensitivity Level:"
+  },
+  "projectTypes": {
+    "web": "Web Application",
+    "mobile": "Mobile Application",
+    "desktop": "Desktop Application",
+    "api": "API/Backend Service",
+    "blockchain": "Blockchain/DeFi",
+    "iot": "IoT Device"
+  },
+  "companySizes": {
+    "startup": "Startup (1-50 employees)",
+    "medium": "Medium (51-500 employees)",
+    "enterprise": "Enterprise (500+ employees)"
+  },
+  "assessmentTypes": {
+    "penetrationTesting": "Penetration Testing",
+    "codeReview": "Code Review",
+    "architectureReview": "Architecture Review",
+    "complianceAudit": "Compliance Audit",
+    "threatModeling": "Threat Modeling",
+    "incidentResponse": "Incident Response"
+  },
+  "sliderLabels": {
+    "low": "Low",
+    "critical": "Critical",
+    "simple": "Simple",
+    "highlyComplex": "Highly Complex",
+    "public": "Public",
+    "topSecret": "Top Secret"
+  },
+  "timelines": {
+    "urgent": "Urgent (< 2 weeks)",
+    "fast": "Fast (2-4 weeks)",
+    "normal": "Normal (1-3 months)",
+    "flexible": "Flexible (3+ months)"
+  },
+  "industries": {
+    "fintech": "FinTech",
+    "healthcare": "Healthcare",
+    "ecommerce": "E-commerce",
+    "saas": "SaaS",
+    "gaming": "Gaming",
+    "other": "Other"
+  },
+  "compliance": {
+    "pciDss": "PCI DSS",
+    "hipaa": "HIPAA",
+    "gdpr": "GDPR",
+    "soc2": "SOC 2",
+    "iso27001": "ISO 27001",
+    "nist": "NIST"
+  },
+  "buttons": {
+    "submit": "Find My Security Vendor",
+    "newAnalysis": "Start New Analysis"
+  },
+  "progress": {
+    "title": "Analyzing Your Requirements...",
+    "initializing": "Initializing analysis...",
+    "step1": "Analyzing project requirements...",
+    "step2": "Evaluating security priorities...",
+    "step3": "Matching technology stack...",
+    "step4": "Checking compliance requirements...",
+    "step5": "Calculating budget alignment...",
+    "step6": "Reviewing vendor capabilities...",
+    "step7": "Finalizing recommendation..."
+  },
+  "results": {
+    "title": "Recommended Security Vendor",
+    "description": "Based on your project requirements and security needs, we recommend this vendor for your security assessment."
+  },
+  "errors": {
+    "requestError": "An error occurred while processing your request."
+  }
+}

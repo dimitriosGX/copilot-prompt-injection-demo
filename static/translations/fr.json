@@ -1,0 +1,101 @@
+{
+  "title": "Sélecteur de Fournisseurs de Sécurité",
+  "header": {
+    "title": "Outil de Sélection de Fournisseurs de Sécurité",
+    "subtitle": "Trouvez le fournisseur de sécurité parfait pour votre projet"
+  },
+  "sections": {
+    "projectInfo": "Informations sur le Projet",
+    "securityReq": "Exigences de Sécurité",
+    "technicalReq": "Exigences Techniques",
+    "compliance": "Conformité et Industrie"
+  },
+  "form": {
+    "projectName": "Nom du Projet :",
+    "projectType": "Type de Projet :",
+    "companySize": "Taille de l'Entreprise :",
+    "assessmentTypes": "Types d'Évaluation de Sécurité (sélectionnez tous ceux qui s'appliquent) :",
+    "securityPriority": "Niveau de Priorité de Sécurité :",
+    "budgetRange": "Fourchette Budgétaire (USD) :",
+    "timeline": "Calendrier du Projet :",
+    "techStack": "Stack Technologique (sélectionnez tous ceux qui s'appliquent) :",
+    "codeComplexity": "Complexité du Code :",
+    "codebaseSize": "Taille du Code Base (Lignes de Code) :",
+    "industry": "Industrie :",
+    "complianceReq": "Exigences de Conformité (sélectionnez tous ceux qui s'appliquent) :",
+    "dataSensitivity": "Niveau de Sensibilité des Données :"
+  },
+  "projectTypes": {
+    "web": "Application Web",
+    "mobile": "Application Mobile",
+    "desktop": "Application de Bureau",
+    "api": "API/Service Backend",
+    "blockchain": "Blockchain/DeFi",
+    "iot": "Appareil IoT"
+  },
+  "companySizes": {
+    "startup": "Startup (1-50 employés)",
+    "medium": "Moyenne (51-500 employés)",
+    "enterprise": "Entreprise (500+ employés)"
+  },
+  "assessmentTypes": {
+    "penetrationTesting": "Tests de Pénétration",
+    "codeReview": "Révision de Code",
+    "architectureReview": "Révision d'Architecture",
+    "complianceAudit": "Audit de Conformité",
+    "threatModeling": "Modélisation des Menaces",
+    "incidentResponse": "Réponse aux Incidents"
+  },
+  "sliderLabels": {
+    "low": "Faible",
+    "critical": "Critique",
+    "simple": "Simple",
+    "highlyComplex": "Très Complexe",
+    "public": "Public",
+    "topSecret": "Top Secret"
+  },
+  "timelines": {
+    "urgent": "Urgent (< 2 semaines)",
+    "fast": "Rapide (2-4 semaines)",
+    "normal": "Normal (1-3 mois)",
+    "flexible": "Flexible (3+ mois)"
+  },
+  "industries": {
+    "fintech": "FinTech",
+    "healthcare": "Santé",
+    "ecommerce": "Commerce Électronique",
+    "saas": "SaaS",
+    "gaming": "Jeux",
+    "other": "Autre"
+  },
+  "compliance": {
+    "pciDss": "PCI DSS",
+    "hipaa": "HIPAA",
+    "gdpr": "RGPD",
+    "soc2": "SOC 2",
+    "iso27001": "ISO 27001",
+    "nist": "NIST"
+  },
+  "buttons": {
+    "submit": "Trouver Mon Fournisseur de Sécurité",
+    "newAnalysis": "Démarrer une Nouvelle Analyse"
+  },
+  "progress": {
+    "title": "Analyse de Vos Exigences...",
+    "initializing": "Initialisation de l'analyse...",
+    "step1": "Analyse des exigences du projet...",
+    "step2": "Évaluation des priorités de sécurité...",
+    "step3": "Correspondance du stack technologique...",
+    "step4": "Vérification des exigences de conformité...",
+    "step5": "Calcul de l'alignement budgétaire...",
+    "step6": "Examen des capacités du fournisseur...",
+    "step7": "Finalisation de la recommandation..."
+  },
+  "results": {
+    "title": "Fournisseur de Sécurité Recommandé",
+    "description": "En fonction des exigences de votre projet et de vos besoins en matière de sécurité, nous recommandons ce fournisseur pour votre évaluation de sécurité."
+  },
+  "errors": {
+    "requestError": "Une erreur s'est produite lors du traitement de votre demande."
+  }
+}
