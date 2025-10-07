@@ -20,6 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const sensitivitySlider = document.getElementById('data-sensitivity');
     const sensitivityValue = document.getElementById('sensitivity-value');
 
+    // Language switching
+    window.changeLanguage = function(lang) {
+        fetch('/set_language/' + lang)
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.reload();
+                }
+            })
+            .catch(error => console.error('Error changing language:', error));
+    };
+
     prioritySlider.addEventListener('input', function() {
         priorityValue.textContent = this.value;
     });
