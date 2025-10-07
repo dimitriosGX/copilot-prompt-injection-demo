@@ -1,0 +1,101 @@
+{
+  "title": "Sélecteur de Fournisseur de Sécurité",
+  "header_title": "Outil de Sélection de Fournisseur de Sécurité",
+  "header_subtitle": "Trouvez le fournisseur de sécurité parfait pour votre projet",
+  
+  "section_project_info": "Informations sur le Projet",
+  "label_project_name": "Nom du Projet:",
+  "label_project_type": "Type de Projet:",
+  "option_web": "Application Web",
+  "option_mobile": "Application Mobile",
+  "option_desktop": "Application de Bureau",
+  "option_api": "API/Service Backend",
+  "option_blockchain": "Blockchain/DeFi",
+  "option_iot": "Appareil IoT",
+  
+  "label_company_size": "Taille de l'Entreprise:",
+  "radio_startup": "Startup (1-50 employés)",
+  "radio_medium": "Moyenne (51-500 employés)",
+  "radio_enterprise": "Entreprise (500+ employés)",
+  
+  "section_security_requirements": "Exigences de Sécurité",
+  "label_assessment_types": "Types d'Évaluation de Sécurité (sélectionnez tous ceux qui s'appliquent):",
+  "checkbox_penetration_testing": "Tests de Pénétration",
+  "checkbox_code_review": "Révision du Code",
+  "checkbox_architecture_review": "Révision de l'Architecture",
+  "checkbox_compliance_audit": "Audit de Conformité",
+  "checkbox_threat_modeling": "Modélisation des Menaces",
+  "checkbox_incident_response": "Réponse aux Incidents",
+  
+  "label_security_priority": "Niveau de Priorité de Sécurité:",
+  "slider_low": "Faible (1)",
+  "slider_critical": "Critique (10)",
+  
+  "label_budget_range": "Fourchette de Budget (USD):",
+  "budget_5k": "$5K",
+  "budget_500k": "$500K+",
+  
+  "label_timeline": "Calendrier du Projet:",
+  "option_urgent": "Urgent (< 2 semaines)",
+  "option_fast": "Rapide (2-4 semaines)",
+  "option_normal": "Normal (1-3 mois)",
+  "option_flexible": "Flexible (3+ mois)",
+  
+  "section_technical_requirements": "Exigences Techniques",
+  "label_tech_stack": "Pile Technologique (sélectionnez tous ceux qui s'appliquent):",
+  "checkbox_javascript": "JavaScript/Node.js",
+  "checkbox_python": "Python",
+  "checkbox_java": "Java",
+  "checkbox_csharp": "C#/.NET",
+  "checkbox_cpp": "C/C++",
+  "checkbox_rust": "Rust",
+  "checkbox_go": "Go",
+  "checkbox_solidity": "Solidity",
+  
+  "label_complexity": "Complexité du Code:",
+  "slider_simple": "Simple (1)",
+  "slider_complex": "Très Complexe (10)",
+  
+  "label_codebase_size": "Taille de la Base de Code (Lignes de Code):",
+  "codebase_1k": "1K",
+  "codebase_1m": "1M+",
+  
+  "section_compliance_industry": "Conformité et Industrie",
+  "label_industry": "Industrie:",
+  "radio_fintech": "FinTech",
+  "radio_healthcare": "Santé",
+  "radio_ecommerce": "Commerce Électronique",
+  "radio_saas": "SaaS",
+  "radio_gaming": "Jeux",
+  "radio_other": "Autre",
+  
+  "label_compliance": "Exigences de Conformité (sélectionnez tous ceux qui s'appliquent):",
+  "checkbox_pci_dss": "PCI DSS",
+  "checkbox_hipaa": "HIPAA",
+  "checkbox_gdpr": "RGPD",
+  "checkbox_soc2": "SOC 2",
+  "checkbox_iso27001": "ISO 27001",
+  "checkbox_nist": "NIST",
+  
+  "label_data_sensitivity": "Niveau de Sensibilité des Données:",
+  "slider_public": "Public (1)",
+  "slider_top_secret": "Top Secret (5)",
+  
+  "button_submit": "Trouver Mon Fournisseur de Sécurité",
+  
+  "progress_title": "Analyse de Vos Exigences...",
+  "progress_initializing": "Initialisation de l'analyse...",
+  "progress_analyzing": "Analyse des exigences du projet...",
+  "progress_evaluating": "Évaluation des priorités de sécurité...",
+  "progress_matching": "Correspondance de la pile technologique...",
+  "progress_checking": "Vérification des exigences de conformité...",
+  "progress_calculating": "Calcul de l'alignement budgétaire...",
+  "progress_reviewing": "Examen des capacités du fournisseur...",
+  "progress_finalizing": "Finalisation de la recommandation...",
+  
+  "result_title": "Fournisseur de Sécurité Recommandé",
+  "result_description": "En fonction des exigences de votre projet et des besoins de sécurité, nous recommandons ce fournisseur pour votre évaluation de sécurité.",
+  "button_new_analysis": "Démarrer Nouvelle Analyse",
+  
+  "error_message": "Une erreur s'est produite lors du traitement de votre demande."
+}

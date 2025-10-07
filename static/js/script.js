@@ -1,4 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Initialize translations first
+    await TranslationManager.init();
+    
+    // Add language selector event listener
+    const languageSelector = document.getElementById('language-selector');
+    languageSelector.addEventListener('change', async function() {
+        await TranslationManager.loadLanguage(this.value);
+    });
+    
     const form = document.getElementById('vendor-form');
     const progressContainer = document.getElementById('progress-container');
     const resultContainer = document.getElementById('result-container');
@@ -74,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
             console.error('Error:', error);
-            alert('An error occurred while processing your request.');
+            alert(TranslationManager.translate('error_message'));
             form.style.display = 'block';
             progressContainer.style.display = 'none';
         });
@@ -96,15 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const progressFill = document.getElementById('progress-fill');
         const progressText = document.getElementById('progress-text');
         
-        const steps = [
-            { percent: 10, text: 'Analyzing project requirements...' },
-            { percent: 25, text: 'Evaluating security priorities...' },
-            { percent: 40, text: 'Matching technology stack...' },
-            { percent: 55, text: 'Checking compliance requirements...' },
-            { percent: 70, text: 'Calculating budget alignment...' },
-            { percent: 85, text: 'Reviewing vendor capabilities...' },
-            { percent: 100, text: 'Finalizing recommendation...' }
-        ];
+        const steps = TranslationManager.getProgressSteps();
         
         let currentStep = 0;
         

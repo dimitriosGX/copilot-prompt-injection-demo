@@ -1,0 +1,101 @@
+{
+  "title": "Security Vendor Selector",
+  "header_title": "Security Vendor Selection Tool",
+  "header_subtitle": "Find the perfect security vendor for your project",
+  
+  "section_project_info": "Project Information",
+  "label_project_name": "Project Name:",
+  "label_project_type": "Project Type:",
+  "option_web": "Web Application",
+  "option_mobile": "Mobile Application",
+  "option_desktop": "Desktop Application",
+  "option_api": "API/Backend Service",
+  "option_blockchain": "Blockchain/DeFi",
+  "option_iot": "IoT Device",
+  
+  "label_company_size": "Company Size:",
+  "radio_startup": "Startup (1-50 employees)",
+  "radio_medium": "Medium (51-500 employees)",
+  "radio_enterprise": "Enterprise (500+ employees)",
+  
+  "section_security_requirements": "Security Requirements",
+  "label_assessment_types": "Security Assessment Types (select all that apply):",
+  "checkbox_penetration_testing": "Penetration Testing",
+  "checkbox_code_review": "Code Review",
+  "checkbox_architecture_review": "Architecture Review",
+  "checkbox_compliance_audit": "Compliance Audit",
+  "checkbox_threat_modeling": "Threat Modeling",
+  "checkbox_incident_response": "Incident Response",
+  
+  "label_security_priority": "Security Priority Level:",
+  "slider_low": "Low (1)",
+  "slider_critical": "Critical (10)",
+  
+  "label_budget_range": "Budget Range (USD):",
+  "budget_5k": "$5K",
+  "budget_500k": "$500K+",
+  
+  "label_timeline": "Project Timeline:",
+  "option_urgent": "Urgent (< 2 weeks)",
+  "option_fast": "Fast (2-4 weeks)",
+  "option_normal": "Normal (1-3 months)",
+  "option_flexible": "Flexible (3+ months)",
+  
+  "section_technical_requirements": "Technical Requirements",
+  "label_tech_stack": "Technology Stack (select all that apply):",
+  "checkbox_javascript": "JavaScript/Node.js",
+  "checkbox_python": "Python",
+  "checkbox_java": "Java",
+  "checkbox_csharp": "C#/.NET",
+  "checkbox_cpp": "C/C++",
+  "checkbox_rust": "Rust",
+  "checkbox_go": "Go",
+  "checkbox_solidity": "Solidity",
+  
+  "label_complexity": "Code Complexity:",
+  "slider_simple": "Simple (1)",
+  "slider_complex": "Highly Complex (10)",
+  
+  "label_codebase_size": "Codebase Size (Lines of Code):",
+  "codebase_1k": "1K",
+  "codebase_1m": "1M+",
+  
+  "section_compliance_industry": "Compliance & Industry",
+  "label_industry": "Industry:",
+  "radio_fintech": "FinTech",
+  "radio_healthcare": "Healthcare",
+  "radio_ecommerce": "E-commerce",
+  "radio_saas": "SaaS",
+  "radio_gaming": "Gaming",
+  "radio_other": "Other",
+  
+  "label_compliance": "Compliance Requirements (select all that apply):",
+  "checkbox_pci_dss": "PCI DSS",
+  "checkbox_hipaa": "HIPAA",
+  "checkbox_gdpr": "GDPR",
+  "checkbox_soc2": "SOC 2",
+  "checkbox_iso27001": "ISO 27001",
+  "checkbox_nist": "NIST",
+  
+  "label_data_sensitivity": "Data Sensitivity Level:",
+  "slider_public": "Public (1)",
+  "slider_top_secret": "Top Secret (5)",
+  
+  "button_submit": "Find My Security Vendor",
+  
+  "progress_title": "Analyzing Your Requirements...",
+  "progress_initializing": "Initializing analysis...",
+  "progress_analyzing": "Analyzing project requirements...",
+  "progress_evaluating": "Evaluating security priorities...",
+  "progress_matching": "Matching technology stack...",
+  "progress_checking": "Checking compliance requirements...",
+  "progress_calculating": "Calculating budget alignment...",
+  "progress_reviewing": "Reviewing vendor capabilities...",
+  "progress_finalizing": "Finalizing recommendation...",
+  
+  "result_title": "Recommended Security Vendor",
+  "result_description": "Based on your project requirements and security needs, we recommend this vendor for your security assessment.",
+  "button_new_analysis": "Start New Analysis",
+  
+  "error_message": "An error occurred while processing your request."
+}

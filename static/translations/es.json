@@ -1,0 +1,101 @@
+{
+  "title": "Selector de Proveedor de Seguridad",
+  "header_title": "Herramienta de Selección de Proveedor de Seguridad",
+  "header_subtitle": "Encuentre el proveedor de seguridad perfecto para su proyecto",
+  
+  "section_project_info": "Información del Proyecto",
+  "label_project_name": "Nombre del Proyecto:",
+  "label_project_type": "Tipo de Proyecto:",
+  "option_web": "Aplicación Web",
+  "option_mobile": "Aplicación Móvil",
+  "option_desktop": "Aplicación de Escritorio",
+  "option_api": "API/Servicio Backend",
+  "option_blockchain": "Blockchain/DeFi",
+  "option_iot": "Dispositivo IoT",
+  
+  "label_company_size": "Tamaño de la Empresa:",
+  "radio_startup": "Startup (1-50 empleados)",
+  "radio_medium": "Mediana (51-500 empleados)",
+  "radio_enterprise": "Empresa (500+ empleados)",
+  
+  "section_security_requirements": "Requisitos de Seguridad",
+  "label_assessment_types": "Tipos de Evaluación de Seguridad (seleccione todos los que apliquen):",
+  "checkbox_penetration_testing": "Pruebas de Penetración",
+  "checkbox_code_review": "Revisión de Código",
+  "checkbox_architecture_review": "Revisión de Arquitectura",
+  "checkbox_compliance_audit": "Auditoría de Cumplimiento",
+  "checkbox_threat_modeling": "Modelado de Amenazas",
+  "checkbox_incident_response": "Respuesta a Incidentes",
+  
+  "label_security_priority": "Nivel de Prioridad de Seguridad:",
+  "slider_low": "Bajo (1)",
+  "slider_critical": "Crítico (10)",
+  
+  "label_budget_range": "Rango de Presupuesto (USD):",
+  "budget_5k": "$5K",
+  "budget_500k": "$500K+",
+  
+  "label_timeline": "Cronograma del Proyecto:",
+  "option_urgent": "Urgente (< 2 semanas)",
+  "option_fast": "Rápido (2-4 semanas)",
+  "option_normal": "Normal (1-3 meses)",
+  "option_flexible": "Flexible (3+ meses)",
+  
+  "section_technical_requirements": "Requisitos Técnicos",
+  "label_tech_stack": "Pila Tecnológica (seleccione todos los que apliquen):",
+  "checkbox_javascript": "JavaScript/Node.js",
+  "checkbox_python": "Python",
+  "checkbox_java": "Java",
+  "checkbox_csharp": "C#/.NET",
+  "checkbox_cpp": "C/C++",
+  "checkbox_rust": "Rust",
+  "checkbox_go": "Go",
+  "checkbox_solidity": "Solidity",
+  
+  "label_complexity": "Complejidad del Código:",
+  "slider_simple": "Simple (1)",
+  "slider_complex": "Muy Complejo (10)",
+  
+  "label_codebase_size": "Tamaño de la Base de Código (Líneas de Código):",
+  "codebase_1k": "1K",
+  "codebase_1m": "1M+",
+  
+  "section_compliance_industry": "Cumplimiento e Industria",
+  "label_industry": "Industria:",
+  "radio_fintech": "FinTech",
+  "radio_healthcare": "Salud",
+  "radio_ecommerce": "Comercio Electrónico",
+  "radio_saas": "SaaS",
+  "radio_gaming": "Juegos",
+  "radio_other": "Otro",
+  
+  "label_compliance": "Requisitos de Cumplimiento (seleccione todos los que apliquen):",
+  "checkbox_pci_dss": "PCI DSS",
+  "checkbox_hipaa": "HIPAA",
+  "checkbox_gdpr": "GDPR",
+  "checkbox_soc2": "SOC 2",
+  "checkbox_iso27001": "ISO 27001",
+  "checkbox_nist": "NIST",
+  
+  "label_data_sensitivity": "Nivel de Sensibilidad de Datos:",
+  "slider_public": "Público (1)",
+  "slider_top_secret": "Alto Secreto (5)",
+  
+  "button_submit": "Encontrar Mi Proveedor de Seguridad",
+  
+  "progress_title": "Analizando Sus Requisitos...",
+  "progress_initializing": "Inicializando análisis...",
+  "progress_analyzing": "Analizando requisitos del proyecto...",
+  "progress_evaluating": "Evaluando prioridades de seguridad...",
+  "progress_matching": "Comparando pila tecnológica...",
+  "progress_checking": "Verificando requisitos de cumplimiento...",
+  "progress_calculating": "Calculando alineación presupuestaria...",
+  "progress_reviewing": "Revisando capacidades del proveedor...",
+  "progress_finalizing": "Finalizando recomendación...",
+  
+  "result_title": "Proveedor de Seguridad Recomendado",
+  "result_description": "Según los requisitos de su proyecto y las necesidades de seguridad, recomendamos este proveedor para su evaluación de seguridad.",
+  "button_new_analysis": "Iniciar Nuevo Análisis",
+  
+  "error_message": "Ocurrió un error al procesar su solicitud."
+}
