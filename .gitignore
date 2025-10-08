@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Translation templates (keep .po and .mo files)
+*.pot

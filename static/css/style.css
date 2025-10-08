@@ -24,6 +24,32 @@ header {
     color: white;
 }
 
+.language-selector {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-selector a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+}
+
+.language-selector a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.language-selector a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+    font-weight: 600;
+}
+
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
