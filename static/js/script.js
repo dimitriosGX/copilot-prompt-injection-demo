@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultContainer = document.getElementById('result-container');
     const submitBtn = document.getElementById('submit-btn');
     const newAnalysisBtn = document.getElementById('new-analysis');
+    const languageSelect = document.getElementById('language-select');
 
     const prioritySlider = document.getElementById('security-priority');
     const priorityValue = document.getElementById('priority-value');
@@ -19,6 +20,33 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const sensitivitySlider = document.getElementById('data-sensitivity');
     const sensitivityValue = document.getElementById('sensitivity-value');
+
+    // Language management
+    let currentLanguage = localStorage.getItem('selectedLanguage') || 'en';
+    
+    function updateLanguage(lang) {
+        currentLanguage = lang;
+        localStorage.setItem('selectedLanguage', lang);
+        
+        // Update all elements with data-i18n attribute
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[lang] && translations[lang][key]) {
+                element.textContent = translations[lang][key];
+            }
+        });
+        
+        // Update HTML lang attribute
+        document.documentElement.lang = lang;
+    }
+    
+    // Set initial language
+    languageSelect.value = currentLanguage;
+    updateLanguage(currentLanguage);
+    
+    languageSelect.addEventListener('change', function() {
+        updateLanguage(this.value);
+    });
 
     prioritySlider.addEventListener('input', function() {
         priorityValue.textContent = this.value;
@@ -97,13 +125,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const progressText = document.getElementById('progress-text');
         
         const steps = [
-            { percent: 10, text: 'Analyzing project requirements...' },
-            { percent: 25, text: 'Evaluating security priorities...' },
-            { percent: 40, text: 'Matching technology stack...' },
-            { percent: 55, text: 'Checking compliance requirements...' },
-            { percent: 70, text: 'Calculating budget alignment...' },
-            { percent: 85, text: 'Reviewing vendor capabilities...' },
-            { percent: 100, text: 'Finalizing recommendation...' }
+            { percent: 10, key: 'analyzing_project' },
+            { percent: 25, key: 'evaluating_security' },
+            { percent: 40, key: 'matching_tech' },
+            { percent: 55, key: 'checking_compliance' },
+            { percent: 70, key: 'calculating_budget' },
+            { percent: 85, key: 'reviewing_vendor' },
+            { percent: 100, key: 'finalizing' }
         ];
         
         let currentStep = 0;
@@ -112,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (currentStep < steps.length) {
                 const step = steps[currentStep];
                 progressFill.style.width = step.percent + '%';
-                progressText.textContent = step.text;
+                progressText.textContent = translations[currentLanguage][step.key];
                 currentStep++;
                 
                 const delay = currentStep === steps.length ? 500 : 600 + Math.random() * 400;
