@@ -1,3 +1,34 @@
+/* Language Selector */
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.lang-btn {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.lang-btn:hover {
+    background-color: #f8f9fa;
+    border-color: #bbb;
+}
+
+.lang-btn.active {
+    background-color: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
 * {
     margin: 0;
     padding: 0;

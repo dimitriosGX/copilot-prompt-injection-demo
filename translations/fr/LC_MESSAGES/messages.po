@@ -1,0 +1,202 @@
+# French translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-27 20:01+0200\n"
+"PO-Revision-Date: 2026-01-27 20:01+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+msgid "Security Vendor Selector"
+msgstr "Sélecteur de Fournisseur de Sécurité"
+
+msgid "Security Vendor Selection Tool"
+msgstr "Outil de Sélection de Fournisseur de Sécurité"
+
+msgid "Find the perfect security vendor for your project"
+msgstr "Trouvez le fournisseur de sécurité idéal pour votre projet"
+
+msgid "Project Information"
+msgstr "Informations sur le Projet"
+
+msgid "Project Name:"
+msgstr "Nom du Projet :"
+
+msgid "Project Type:"
+msgstr "Type de Projet :"
+
+msgid "Web Application"
+msgstr "Application Web"
+
+msgid "Mobile Application"
+msgstr "Application Mobile"
+
+msgid "Desktop Application"
+msgstr "Application de Bureau"
+
+msgid "API/Backend Service"
+msgstr "API / Service Backend"
+
+msgid "Blockchain/DeFi"
+msgstr "Blockchain / DeFi"
+
+msgid "IoT Device"
+msgstr "Appareil IoT"
+
+msgid "Company Size:"
+msgstr "Taille de l'Entreprise :"
+
+msgid "Startup (1-50 employees)"
+msgstr "Startup (1-50 employés)"
+
+msgid "Medium (51-500 employees)"
+msgstr "Moyenne (51-500 employés)"
+
+msgid "Enterprise (500+ employees)"
+msgstr "Grande Entreprise (500+ employés)"
+
+msgid "Security Requirements"
+msgstr "Exigences de Sécurité"
+
+msgid "Security Assessment Types (select all that apply):"
+msgstr "Types d'Évaluation de Sécurité (sélectionnez tout ce qui s'applique) :"
+
+msgid "Penetration Testing"
+msgstr "Tests d'Intrusion"
+
+msgid "Code Review"
+msgstr "Revue de Code"
+
+msgid "Architecture Review"
+msgstr "Revue d'Architecture"
+
+msgid "Compliance Audit"
+msgstr "Audit de Conformité"
+
+msgid "Threat Modeling"
+msgstr "Modélisation des Menaces"
+
+msgid "Incident Response"
+msgstr "Réponse aux Incidents"
+
+msgid "Security Priority Level:"
+msgstr "Niveau de Priorité de Sécurité :"
+
+msgid "Low (1)"
+msgstr "Faible (1)"
+
+msgid "Critical (10)"
+msgstr "Critique (10)"
+
+msgid "Budget Range (USD):"
+msgstr "Fourchette de Budget (USD) :"
+
+msgid "Project Timeline:"
+msgstr "Calendrier du Projet :"
+
+msgid "Urgent (< 2 weeks)"
+msgstr "Urgent (< 2 semaines)"
+
+msgid "Fast (2-4 weeks)"
+msgstr "Rapide (2-4 semaines)"
+
+msgid "Normal (1-3 months)"
+msgstr "Normal (1-3 mois)"
+
+msgid "Flexible (3+ months)"
+msgstr "Flexible (3+ mois)"
+
+msgid "Technical Requirements"
+msgstr "Exigences Techniques"
+
+msgid "Technology Stack (select all that apply):"
+msgstr "Pile Technologique (sélectionnez tout ce qui s'applique) :"
+
+msgid "Code Complexity:"
+msgstr "Complexité du Code :"
+
+msgid "Simple (1)"
+msgstr "Simple (1)"
+
+msgid "Highly Complex (10)"
+msgstr "Très Complexe (10)"
+
+msgid "Codebase Size (Lines of Code):"
+msgstr "Taille de la Base de Code (Lignes de Code) :"
+
+msgid "Compliance & Industry"
+msgstr "Conformité et Industrie"
+
+msgid "Industry:"
+msgstr "Industrie :"
+
+msgid "FinTech"
+msgstr "FinTech"
+
+msgid "Healthcare"
+msgstr "Santé"
+
+msgid "E-commerce"
+msgstr "Commerce Électronique"
+
+msgid "SaaS"
+msgstr "SaaS"
+
+msgid "Gaming"
+msgstr "Jeux Vidéo"
+
+msgid "Other"
+msgstr "Autre"
+
+msgid "Compliance Requirements (select all that apply):"
+msgstr "Exigences de Conformité (sélectionnez tout ce qui s'applique) :"
+
+msgid "Data Sensitivity Level:"
+msgstr "Niveau de Sensibilité des Données :"
+
+msgid "Public (1)"
+msgstr "Public (1)"
+
+msgid "Top Secret (5)"
+msgstr "Top Secret (5)"
+
+msgid "Find My Security Vendor"
+msgstr "Trouver mon Fournisseur de Sécurité"
+
+msgid "Analyzing Your Requirements..."
+msgstr "Analyse de vos Exigences..."
+
+msgid "Initializing analysis..."
+msgstr "Initialisation de l'analyse..."
+
+msgid "Recommended Security Vendor"
+msgstr "Fournisseur de Sécurité Recommandé"
+
+msgid "Based on your project requirements and security needs, we recommend this vendor for your security assessment."
+msgstr "Sur la base des exigences de votre projet et de vos besoins en sécurité, nous recommandons ce fournisseur pour votre évaluation de sécurité."
+
+msgid "Start New Analysis"
+msgstr "Nouvelle Analyse"
+
+msgid "Scanning technical requirements..."
+msgstr "Analyse des exigences techniques..."
+
+msgid "Evaluating security priorities..."
+msgstr "Évaluation des priorités de sécurité..."
+
+msgid "Matching with vendor capabilities..."
+msgstr "Correspondance avec les capacités des fournisseurs..."
+
+msgid "Finalizing recommendation..."
+msgstr "Finalisation de la recommandation..."

@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const sensitivitySlider = document.getElementById('data-sensitivity');
     const sensitivityValue = document.getElementById('sensitivity-value');
 
+    // i18n helper
+    const t = (key) => window.i18n && window.i18n[key] ? window.i18n[key] : key;
+
     prioritySlider.addEventListener('input', function() {
         priorityValue.textContent = this.value;
     });
@@ -97,13 +100,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const progressText = document.getElementById('progress-text');
         
         const steps = [
-            { percent: 10, text: 'Analyzing project requirements...' },
-            { percent: 25, text: 'Evaluating security priorities...' },
-            { percent: 40, text: 'Matching technology stack...' },
-            { percent: 55, text: 'Checking compliance requirements...' },
-            { percent: 70, text: 'Calculating budget alignment...' },
-            { percent: 85, text: 'Reviewing vendor capabilities...' },
-            { percent: 100, text: 'Finalizing recommendation...' }
+            { percent: 10, text: t('initializing') },
+            { percent: 25, text: t('scanning') },
+            { percent: 40, text: t('evaluating') },
+            { percent: 55, text: t('matching') },
+            { percent: 70, text: t('matching') },
+            { percent: 85, text: t('finalizing') },
+            { percent: 100, text: t('finalizing') }
         ];
         
         let currentStep = 0;
