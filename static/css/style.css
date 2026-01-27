@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+/* Language Selector */
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.lang-btn {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
+
+.lang-btn.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
