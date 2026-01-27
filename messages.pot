@@ -1,0 +1,249 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-27 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:6
+msgid "Security Vendor Selector"
+msgstr ""
+
+#: templates/index.html:41
+msgid "Security Vendor Selection Tool"
+msgstr ""
+
+#: templates/index.html:42
+msgid "Find the perfect security vendor for your project"
+msgstr ""
+
+#: templates/index.html:47
+msgid "Project Information"
+msgstr ""
+
+#: templates/index.html:49
+msgid "Project Name:"
+msgstr ""
+
+#: templates/index.html:54
+msgid "Project Type:"
+msgstr ""
+
+#: templates/index.html:56
+msgid "Web Application"
+msgstr ""
+
+#: templates/index.html:57
+msgid "Mobile Application"
+msgstr ""
+
+#: templates/index.html:58
+msgid "Desktop Application"
+msgstr ""
+
+#: templates/index.html:59
+msgid "API/Backend Service"
+msgstr ""
+
+#: templates/index.html:60
+msgid "Blockchain/DeFi"
+msgstr ""
+
+#: templates/index.html:61
+msgid "IoT Device"
+msgstr ""
+
+#: templates/index.html:66
+msgid "Company Size:"
+msgstr ""
+
+#: templates/index.html:69
+msgid "Startup (1-50 employees)"
+msgstr ""
+
+#: templates/index.html:72
+msgid "Medium (51-500 employees)"
+msgstr ""
+
+#: templates/index.html:75
+msgid "Enterprise (500+ employees)"
+msgstr ""
+
+#: templates/index.html:81
+msgid "Security Requirements"
+msgstr ""
+
+#: templates/index.html:83
+msgid "Security Assessment Types (select all that apply):"
+msgstr ""
+
+#: templates/index.html:86
+msgid "Penetration Testing"
+msgstr ""
+
+#: templates/index.html:89
+msgid "Code Review"
+msgstr ""
+
+#: templates/index.html:92
+msgid "Architecture Review"
+msgstr ""
+
+#: templates/index.html:95
+msgid "Compliance Audit"
+msgstr ""
+
+#: templates/index.html:98
+msgid "Threat Modeling"
+msgstr ""
+
+#: templates/index.html:101
+msgid "Incident Response"
+msgstr ""
+
+#: templates/index.html:106
+msgid "Security Priority Level:"
+msgstr ""
+
+#: templates/index.html:110
+msgid "Low (1)"
+msgstr ""
+
+#: templates/index.html:112
+msgid "Critical (10)"
+msgstr ""
+
+#: templates/index.html:118
+msgid "Budget Range (USD):"
+msgstr ""
+
+#: templates/index.html:130
+msgid "Project Timeline:"
+msgstr ""
+
+#: templates/index.html:132
+msgid "Urgent (< 2 weeks)"
+msgstr ""
+
+#: templates/index.html:133
+msgid "Fast (2-4 weeks)"
+msgstr ""
+
+#: templates/index.html:134
+msgid "Normal (1-3 months)"
+msgstr ""
+
+#: templates/index.html:135
+msgid "Flexible (3+ months)"
+msgstr ""
+
+#: templates/index.html:141
+msgid "Technical Requirements"
+msgstr ""
+
+#: templates/index.html:143
+msgid "Technology Stack (select all that apply):"
+msgstr ""
+
+#: templates/index.html:172
+msgid "Code Complexity:"
+msgstr ""
+
+#: templates/index.html:176
+msgid "Simple (1)"
+msgstr ""
+
+#: templates/index.html:178
+msgid "Highly Complex (10)"
+msgstr ""
+
+#: templates/index.html:184
+msgid "Codebase Size (Lines of Code):"
+msgstr ""
+
+#: templates/index.html:197
+msgid "Compliance & Industry"
+msgstr ""
+
+#: templates/index.html:199
+msgid "Industry:"
+msgstr ""
+
+#: templates/index.html:202
+msgid "FinTech"
+msgstr ""
+
+#: templates/index.html:205
+msgid "Healthcare"
+msgstr ""
+
+#: templates/index.html:208
+msgid "E-commerce"
+msgstr ""
+
+#: templates/index.html:211
+msgid "SaaS"
+msgstr ""
+
+#: templates/index.html:214
+msgid "Gaming"
+msgstr ""
+
+#: templates/index.html:217
+msgid "Other"
+msgstr ""
+
+#: templates/index.html:222
+msgid "Compliance Requirements (select all that apply):"
+msgstr ""
+
+#: templates/index.html:245
+msgid "Data Sensitivity Level:"
+msgstr ""
+
+#: templates/index.html:249
+msgid "Public (1)"
+msgstr ""
+
+#: templates/index.html:251
+msgid "Top Secret (5)"
+msgstr ""
+
+#: templates/index.html:257
+msgid "Find My Security Vendor"
+msgstr ""
+
+#: templates/index.html:261
+msgid "Analyzing Your Requirements..."
+msgstr ""
+
+#: templates/index.html:265
+msgid "Initializing analysis..."
+msgstr ""
+
+#: templates/index.html:269
+msgid "Recommended Security Vendor"
+msgstr ""
+
+#: templates/index.html:272
+msgid ""
+"Based on your project requirements and security needs, we recommend this "
+"vendor for your security assessment."
+msgstr ""
+
+#: templates/index.html:274
+msgid "Start New Analysis"
+msgstr ""
+
