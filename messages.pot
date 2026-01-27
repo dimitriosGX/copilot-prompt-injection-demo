@@ -1,0 +1,143 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-27 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:6
+msgid "Security Vendor Selector"
+msgstr ""
+
+#: templates/index.html:19
+msgid "Find the perfect security vendor for your project"
+msgstr ""
+
+#: templates/index.html:33
+msgid "Web Application"
+msgstr ""
+
+#: templates/index.html:34
+msgid "Mobile Application"
+msgstr ""
+
+#: templates/index.html:35
+msgid "Desktop Application"
+msgstr ""
+
+#: templates/index.html:36
+msgid "API/Backend Service"
+msgstr ""
+
+#: templates/index.html:37
+msgid "Blockchain/DeFi"
+msgstr ""
+
+#: templates/index.html:38
+msgid "IoT Device"
+msgstr ""
+
+#: templates/index.html:49
+msgid "Medium (51-500 employees)"
+msgstr ""
+
+#: templates/index.html:52
+msgid "Enterprise (500+ employees)"
+msgstr ""
+
+#: templates/index.html:66
+msgid "Code Review"
+msgstr ""
+
+#: templates/index.html:69
+msgid "Architecture Review"
+msgstr ""
+
+#: templates/index.html:72
+msgid "Compliance Audit"
+msgstr ""
+
+#: templates/index.html:75
+msgid "Threat Modeling"
+msgstr ""
+
+#: templates/index.html:78
+msgid "Incident Response"
+msgstr ""
+
+#: templates/index.html:89
+msgid "Critical (10)"
+msgstr ""
+
+#: templates/index.html:109
+msgid "Urgent (< 2 weeks)"
+msgstr ""
+
+#: templates/index.html:110
+msgid "Fast (2-4 weeks)"
+msgstr ""
+
+#: templates/index.html:111
+msgid "Normal (1-3 months)"
+msgstr ""
+
+#: templates/index.html:112
+msgid "Flexible (3+ months)"
+msgstr ""
+
+#: templates/index.html:155
+msgid "Highly Complex (10)"
+msgstr ""
+
+#: templates/index.html:182
+msgid "Healthcare"
+msgstr ""
+
+#: templates/index.html:185
+msgid "E-commerce"
+msgstr ""
+
+#: templates/index.html:188
+msgid "SaaS"
+msgstr ""
+
+#: templates/index.html:191
+msgid "Gaming"
+msgstr ""
+
+#: templates/index.html:194
+msgid "Other"
+msgstr ""
+
+#: templates/index.html:228
+msgid "Top Secret (5)"
+msgstr ""
+
+#: templates/index.html:234
+msgid "Find My Security Vendor"
+msgstr ""
+
+#: templates/index.html:238
+msgid "Analyzing Your Requirements..."
+msgstr ""
+
+#: templates/index.html:246
+msgid "Recommended Security Vendor"
+msgstr ""
+
+#: templates/index.html:251
+msgid "Start New Analysis"
+msgstr ""
+
