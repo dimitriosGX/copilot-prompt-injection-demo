@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-22 12:00+0000\n"
+"PO-Revision-Date: 2024-05-22 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+msgid "Security Vendor Selection Tool"
+msgstr "Outil de Sélection de Prestataires de Sécurité"
+
+msgid "Find the perfect security vendor for your project"
+msgstr "Trouvez le prestataire de sécurité idéal pour votre projet"
+
+msgid "Project Information"
+msgstr "Informations sur le Projet"
+
+msgid "Project Name:"
+msgstr "Nom du Projet :"
+
+msgid "Project Type:"
+msgstr "Type de Projet :"
+
+msgid "Web Application"
+msgstr "Application Web"
+
+msgid "Mobile Application"
+msgstr "Application Mobile"
+
+msgid "Desktop Application"
+msgstr "Application de Bureau"
+
+msgid "API/Backend Service"
+msgstr "API/Service Backend"
+
+msgid "Blockchain/DeFi"
+msgstr "Blockchain/DeFi"
+
+msgid "IoT Device"
+msgstr "Objet Connecté (IoT)"
+
+msgid "Company Size:"
+msgstr "Taille de l'Entreprise :"
+
+msgid "Startup (1-50 employees)"
+msgstr "Startup (1-50 employés)"
+
+msgid "Medium (51-500 employees)"
+msgstr "Moyenne (51-500 employés)"
+
+msgid "Enterprise (500+ employees)"
+msgstr "Entreprise (500+ employés)"
+
+msgid "Security Requirements"
+msgstr "Exigences de Sécurité"
+
+msgid "Security Assessment Types (select all that apply):"
+msgstr "Types d'Évaluation de Sécurité (sélectionnez tout ce qui s'applique) :"
+
+msgid "Penetration Testing"
+msgstr "Tests d'Intrusion"
+
+msgid "Code Review"
+msgstr "Revue de Code"
+
+msgid "Architecture Review"
+msgstr "Revue d'Architecture"
+
+msgid "Compliance Audit"
+msgstr "Audit de Conformité"
+
+msgid "Threat Modeling"
+msgstr "Modélisation des Menaces"
+
+msgid "Incident Response"
+msgstr "Réponse aux Incidents"
+
+msgid "Security Priority Level:"
+msgstr "Niveau de Priorité de Sécurité :"
+
+msgid "Low (1)"
+msgstr "Faible (1)"
+
+msgid "Critical (10)"
+msgstr "Critique (10)"
+
+msgid "Budget Range (USD):"
+msgstr "Fourchette Budgétaire (USD) :"
+
+msgid "Project Timeline:"
+msgstr "Calendrier du Projet :"
+
+msgid "Urgent (< 2 weeks)"
+msgstr "Urgent (< 2 semaines)"
+
+msgid "Fast (2-4 weeks)"
+msgstr "Rapide (2-4 semaines)"
+
+msgid "Normal (1-3 months)"
+msgstr "Normal (1-3 mois)"
+
+msgid "Flexible (3+ months)"
+msgstr "Flexible (3+ mois)"
+
+msgid "Technical Requirements"
+msgstr "Exigences Techniques"
+
+msgid "Technology Stack (select all that apply):"
+msgstr "Pile Technologique (sélectionnez tout ce qui s'applique) :"
+
+msgid "Code Complexity:"
+msgstr "Complexité du Code :"
+
+msgid "Simple (1)"
+msgstr "Simple (1)"
+
+msgid "Highly Complex (10)"
+msgstr "Très Complexe (10)"
+
+msgid "Codebase Size (Lines of Code):"
+msgstr "Taille de la Base de Code (Lignes de Code) :"
+
+msgid "Compliance & Industry"
+msgstr "Conformité et Secteur"
+
+msgid "Industry:"
+msgstr "Secteur d'Activité :"
+
+msgid "FinTech"
+msgstr "FinTech"
+
+msgid "Healthcare"
+msgstr "Santé"
+
+msgid "E-commerce"
+msgstr "E-commerce"
+
+msgid "SaaS"
+msgstr "SaaS"
+
+msgid "Gaming"
+msgstr "Jeux Vidéo"
+
+msgid "Other"
+msgstr "Autre"
+
+msgid "Compliance Requirements (select all that apply):"
+msgstr "Exigences de Conformité (sélectionnez tout ce qui s'applique) :"
+
+msgid "Data Sensitivity Level:"
+msgstr "Niveau de Sensibilité des Données :"
+
+msgid "Public (1)"
+msgstr "Public (1)"
+
+msgid "Top Secret (5)"
+msgstr "Secret Défense (5)"
+
+msgid "Find My Security Vendor"
+msgstr "Trouver mon Prestataire de Sécurité"
+
+msgid "Analyzing Your Requirements..."
+msgstr "Analyse de vos exigences..."
+
+msgid "Initializing analysis..."
+msgstr "Initialisation de l'analyse..."
+
+msgid "Recommended Security Vendor"
+msgstr "Prestataire de Sécurité Recommandé"
+
+msgid "Based on your project requirements and security needs, we recommend this vendor for your security assessment."
+msgstr "Sur la base de vos exigences de projet et de vos besoins en sécurité, nous recommandons ce prestataire pour votre évaluation de sécurité."
+
+msgid "Start New Analysis"
+msgstr "Nouvelle Analyse"
